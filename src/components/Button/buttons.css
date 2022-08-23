@@ -1,0 +1,9 @@
+.activeButton {
+  background-color: #6f5eec;
+  color: white;
+}
+
+.inactiveButton {
+  background-color: white;
+  color: #6f5eec;
+}
