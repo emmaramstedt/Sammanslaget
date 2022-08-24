@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   max-width: 900px;
   @media only screen and (min-width: 600px) {
     flex-direction: row;
