@@ -38,7 +38,7 @@ const About = () => {
   return (
     <>
       <AboutUs>
-        <h1>ÅterVinnaren - Om oss</h1>
+        <h1>Om oss</h1>
         <article>
           <p>
             Vi är ett gäng studerande på&nbsp;
@@ -47,7 +47,11 @@ const About = () => {
             </a>
             . Den här sidan är vårt bidrag till Sammanslaget - ett årligt
             hackathon som Yrgo anordnar. I år har uppdraget temat "Theory of
-            Change".
+            Change" i ett samarbete med&nbsp;
+            <a href="https://bjorkafrihet.se/" target="_blank" rel="noreferrer">
+              Björk & Frihet
+            </a>
+            .
           </p>
           <p>
             Med vårt bidrag vill vi med hjälp av kontrasterna "trevligt spel"
@@ -79,7 +83,7 @@ const About = () => {
           Name="Emma Ramstedt"
           Role="Webbutvecklare"
           Photo={Emma}
-          Contribution="Jag har utvärderat projektets kriterier och valt att programmera denna hemsida i React. Jag har fokuserat på optimering av materialet som publiceras och sett till att sidan följer WCAG2 samt är responsiv."
+          Contribution="Jag har utvärderat projektets kriterier och valt att programmera denna hemsida i React. Jag har fokuserat på optimering av materialet som publiceras och sett till att sidan följer WCAG2 samt är responsiv. Det var även jag som föreslog namnet ÅterVinnaren."
         />
       </Wrapper>
     </>

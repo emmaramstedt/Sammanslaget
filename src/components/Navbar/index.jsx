@@ -6,6 +6,7 @@ const NavWrapper = styled.div`
   nav {
     margin-bottom: 2em;
     font-size: 0.8em;
+    font-weight: 800;
     box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.1);
     height: 54px;
   }
