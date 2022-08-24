@@ -38,7 +38,7 @@ const About = () => {
   return (
     <>
       <AboutUs>
-        <h1>Om oss</h1>
+        <h1>ÅterVinnaren - Om oss</h1>
         <article>
           <p>
             Vi är ett gäng studerande på&nbsp;
@@ -61,25 +61,25 @@ const About = () => {
           Name="Adam Sköld"
           Role="UX Designer"
           Photo={Adam}
-          Contribution="hejsan"
+          Contribution="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure placeat, itaque odio architecto error eligendi ea expedita perferendis ullam, deserunt, et reprehenderit tempore nemo aspernatur? Fugiat quidem expedita nulla et"
         />
         <AboutCard
           Name="Furkan Cirik"
           Role="Game Creator Programmer"
           Photo={Furkan}
-          Contribution="hejsan"
+          Contribution="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure placeat, itaque odio architecto error eligendi ea expedita perferendis ullam, deserunt, et reprehenderit tempore nemo aspernatur? Fugiat quidem expedita nulla et"
         />
         <AboutCard
           Name="Sofia Lennhager"
           Role="Game Creator Artist"
           Photo={Sofia}
-          Contribution="hejsan"
+          Contribution="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure placeat, itaque odio architecto error eligendi ea expedita perferendis ullam, deserunt, et reprehenderit tempore nemo aspernatur? Fugiat quidem expedita nulla et"
         />
         <AboutCard
           Name="Emma Ramstedt"
           Role="Webbutvecklare"
           Photo={Emma}
-          Contribution="hejsan"
+          Contribution="Jag har utvärderat projektets kriterier och valt att programmera denna hemsida i React. Jag har fokuserat på optimering av materialet som publiceras och sett till att sidan följer WCAG2 samt är responsiv."
         />
       </Wrapper>
     </>

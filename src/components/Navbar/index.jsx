@@ -38,7 +38,7 @@ const NavWrapper = styled.div`
 
   .logo {
     display: block;
-    position: absolute;
+
     left: 0;
   }
 
@@ -53,9 +53,8 @@ const Navbar = () => {
     <NavWrapper>
       <nav>
         <ul>
-          {/* <div className="logo">Logga placeholder</div> */}
           <NavLink to="/">
-            <li>Hem</li>
+            <li>ÅterVinnaren</li>
           </NavLink>
           <NavLink to="/merinfo">
             <li>Lär dig mer</li>

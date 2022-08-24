@@ -62,6 +62,10 @@ const ProfileCardRole = styled.div`
   color: #6e5df1;
   margin-bottom: 15px;
 `;
+const ProfileCardText = styled.div`
+  font-size: 0.8em;
+  height: 10em;
+`;
 const AboutCard = (props) => {
   return (
     <ProfileWrapper>
@@ -73,6 +77,9 @@ const AboutCard = (props) => {
         <ProfileCardContent>
           <ProfileCardName>{props.Name}</ProfileCardName>
           <ProfileCardRole>{props.Role}</ProfileCardRole>
+          <ProfileCardText>
+            <p>{props.Contribution}</p>
+          </ProfileCardText>
         </ProfileCardContent>
       </ProfileCard>
     </ProfileWrapper>

@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import LearnMore from "./pages/LearnMore";
 import Contribute from "./pages/Contribute";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             </Routes>
           </div>
         </div>
+        <Footer />
       </BrowserRouter>
     </>
   );
