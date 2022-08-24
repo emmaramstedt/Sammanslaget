@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import atervinnarenlogo from "../../assets/logos/atervinnaren.png";
 
 const NavWrapper = styled.div`
   width: 100vw;
@@ -55,7 +56,7 @@ const Navbar = () => {
       <nav>
         <ul>
           <NavLink to="/">
-            <li>ÅterVinnaren</li>
+            <img src={atervinnarenlogo} alt="Återvinnaren logo" />
           </NavLink>
           <NavLink to="/merinfo">
             <li>Lär dig mer</li>
