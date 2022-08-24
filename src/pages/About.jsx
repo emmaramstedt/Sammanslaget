@@ -12,23 +12,24 @@ const Wrapper = styled.div`
   align-content: center;
   align-items: center;
   justify-content: center;
-  @media only screen and (min-width: 713px) {
+  @media only screen and (min-width: 600px) {
     flex-direction: row;
   }
 `;
 
 const AboutUs = styled.div`
   display: flex;
-  padding: 0 10% 0 10%;
+  flex-direction: column;
 `;
 
 const About = () => {
   return (
     <>
       <AboutUs>
+        <h1>Om oss</h1>
         <article>
           <p>
-            Vi är ett gäng studerande på
+            Vi är ett gäng studerande på&nbsp;
             <a href="https://yrgo.se" target="_blank" rel="noreferrer">
               Yrgo
             </a>
@@ -38,8 +39,8 @@ const About = () => {
           </p>
           <p>
             Med vårt bidrag vill vi med hjälp av kontrasterna "trevligt spel"
-            och den statistik, otroliga volymen vatten som snabbmodet shockera
-            användare
+            och statistik, shockera besökaren till en tankeställare och
+            förhoppningsvis skapa en vilja om förändring till följd av det.
           </p>
         </article>
       </AboutUs>

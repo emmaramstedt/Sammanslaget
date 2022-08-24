@@ -1,11 +1,10 @@
-import Button from "../components/Button";
+import Buttons from "../components/Buttons";
 import Facts from "../components/Facts";
 
 const Contribute = () => {
   return (
     <>
-      <Button Url="merinfo" Active="inactiveButton" Text="Fakta" />
-      <Button Url="bidra" Active="activeButton" Text="Hur kan jag bidra?" />
+      <Buttons />
       <Facts
         Class="bidra"
         Title="Hur kan jag bidra?"

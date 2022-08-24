@@ -1,11 +1,10 @@
-import Button from "../components/Button";
+import Buttons from "../components/Buttons";
 import Facts from "../components/Facts";
 
 const LearnMore = () => {
   return (
     <>
-      <Button Url="merinfo" Active="activeButton" Text="Fakta" />
-      <Button Url="bidra" Active="inactiveButton" Text="Hur kan jag bidra?" />
+      <Buttons />
       <Facts
         Class="fakta"
         Title="Modeindustrin och vattenåtgång"

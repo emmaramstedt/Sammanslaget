@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 const NavWrapper = styled.div`
+  width: 100vw;
   nav {
     margin-bottom: 2em;
     font-size: 0.8em;
@@ -21,32 +23,28 @@ const NavWrapper = styled.div`
 
   li {
     display: inline;
-    padding: 0 16px 0 16px;
+    margin: 0 15px 0 15px;
+    padding: 0 1px 0 1px;
   }
 
-  li a {
+  a {
     text-decoration: none;
     color: #494949;
   }
 
-  li a:hover {
+  a:hover {
     color: #6f5eec;
   }
-  /* .bcg {
-  background-color: #f46555;
-  border-radius: 2%;
-  padding: 5px;
-  margin-right: 0.2em;
-}
-
-.bcg a:hover {
-  color: #6e5df1;
-} */
 
   .logo {
     display: block;
     position: absolute;
     left: 0;
+  }
+
+  .active li {
+    border-bottom: 1px solid #6f5eec;
+    color: #6f5eec;
   }
 `;
 
@@ -56,15 +54,15 @@ const Navbar = () => {
       <nav>
         <ul>
           {/* <div className="logo">Logga placeholder</div> */}
-          <li>
-            <a href="/">Hem</a>
-          </li>
-          <li className="bcg">
-            <a href="/merinfo">Lär dig mer</a>
-          </li>
-          <li>
-            <a href="/omoss">Om oss</a>
-          </li>
+          <NavLink to="/">
+            <li>Hem</li>
+          </NavLink>
+          <NavLink to="/merinfo">
+            <li>Lär dig mer</li>
+          </NavLink>
+          <NavLink to="/omoss">
+            <li>Om oss</li>
+          </NavLink>
         </ul>
       </nav>
     </NavWrapper>
