@@ -4,8 +4,8 @@ import { isBrowser } from "react-device-detect";
 
 const Home = () => {
   if (isBrowser) {
-    return <Mobile />;
+    return <Game />;
   }
-  return <Game />;
+  return <Mobile />;
 };
 export default Home;
