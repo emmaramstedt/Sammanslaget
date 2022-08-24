@@ -37,7 +37,7 @@ body {
 }
 
 .appContainer {
-  max-width: 1080px;
+  max-width: 1920px;
 }
 
 h1 {
@@ -46,6 +46,7 @@ h1 {
 }
 
 .atervinnaren {
-  width: 100vw;
-  height: auto;
+  width: 1920px;
+  height: 1080px;
+  display: block;
 }

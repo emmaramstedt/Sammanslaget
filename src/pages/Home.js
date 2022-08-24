@@ -1,18 +1,16 @@
-import React from "react";
-import styled from "styled-components";
-import { Unity, useUnityContext } from "react-unity-webgl";
-
-const Wrapper = styled.div`
-  max-width: 500px;
-`;
+import Game from "../components/Game";
+import Mobile from "../components/Mobile";
+import React, { useState, useEffect } from "react";
 
 const Home = () => {
-  const { unityProvider } = useUnityContext({
-    loaderUrl: "/Build/TheroyOfChangeGZipVersion2.loader.js",
-    dataUrl: "/Build/TheroyOfChangeGZipVersion2.data.unityweb",
-    frameworkUrl: "/Build/TheroyOfChangeGZipVersion2.framework.js.unityweb",
-    codeUrl: "/Build/TheroyOfChangeGZipVersion2.wasm.unityweb",
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 1920);
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 650);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
   });
-  return <Unity className="atervinnaren" unityProvider={unityProvider} />;
+  return <div>{isDesktop ? <Game /> : <Mobile />}</div>;
 };
 export default Home;

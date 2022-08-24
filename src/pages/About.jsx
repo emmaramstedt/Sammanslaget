@@ -12,6 +12,7 @@ const Wrapper = styled.div`
   align-content: center;
   align-items: center;
   justify-content: center;
+  max-width: 900px;
   @media only screen and (min-width: 600px) {
     flex-direction: row;
   }
@@ -20,6 +21,17 @@ const Wrapper = styled.div`
 const AboutUs = styled.div`
   display: flex;
   flex-direction: column;
+  max-width: 900px;
+
+  a {
+    color: rgb(229 19 54);
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 `;
 
 const About = () => {

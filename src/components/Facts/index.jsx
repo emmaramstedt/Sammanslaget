@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const FactsWrapper = styled.div`
+  max-width: 950px;
   li {
     list-style-type: numbers;
     padding-bottom: 2em;
