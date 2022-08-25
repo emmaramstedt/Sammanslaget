@@ -15,17 +15,19 @@ function App() {
         <Navbar />
         <div className="app">
           <div className="appContainer">
-            <Routes>
-              <Route path="*" element={<NotFound />} />
-              <Route path="/" element={<Home />} />
-              <Route path="/omoss" element={<About />} />
-              <Route
-                path="/merinfo"
-                element={<Navigate to="/merinfo/fakta" />}
-              />
-              <Route path="/merinfo/fakta" element={<LearnMore />} />
-              <Route path="/merinfo/bidra" element={<Contribute />} />
-            </Routes>
+            <main>
+              <Routes>
+                <Route path="*" element={<NotFound />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/omoss" element={<About />} />
+                <Route
+                  path="/merinfo"
+                  element={<Navigate to="/merinfo/fakta" />}
+                />
+                <Route path="/merinfo/fakta" element={<LearnMore />} />
+                <Route path="/merinfo/bidra" element={<Contribute />} />
+              </Routes>
+            </main>
           </div>
         </div>
         <Footer />

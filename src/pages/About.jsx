@@ -48,8 +48,8 @@ const About = () => {
                 Yrgo
               </a>
               . Den här sidan är vårt bidrag till Sammanslaget - ett årligt
-              hackathon som Yrgo anordnar. I år har uppdraget temat "Theory of
-              Change" i ett samarbete med&nbsp;
+              hackathon som Yrgo anordnar. I år är temat "Theory of Change" i
+              samarbete med&nbsp;
               <a
                 href="https://bjorkafrihet.se/"
                 target="_blank"
@@ -60,9 +60,10 @@ const About = () => {
               .
             </p>
             <p>
-              Med vårt bidrag vill vi med hjälp av kontrasterna "trevligt spel"
-              och statistik, shockera besökaren till en tankeställare och
-              förhoppningsvis skapa en vilja om förändring till följd av det.
+              Med vårt bidrag ÅterVinnaren vill vi med hjälp av kontrasterna
+              trevligt spel och mindre trevlig statistik shocka besökaren till
+              en tankeställare och till följd av detta hoppas vi på att ingjuta
+              en vilja om att förändra sin konsumption.
             </p>
           </article>
         </AboutUs>
@@ -71,25 +72,25 @@ const About = () => {
             Name="Adam Sköld"
             Role="UX Designer"
             Photo={Adam}
-            Contribution="Jag har drivit designprocessen. Jag har skissat på gränssnitt och skapat prototyper. Jag har även utfört tester och intervjuer."
+            Contribution="Jag har drivit designprocessen. Jag har skissat på gränssnitt och skapat prototyper. Jag har även utfört tester och intervjuer för att se till att upplevelsen lämnar rätt känsla."
           />
           <AboutCard
             Name="Furkan Cirik"
             Role="Game Creator Programmer"
             Photo={Furkan}
-            Contribution="Jag har tagit vår spel-idé och gjort det till verklighet med hjälp av spelmotorn Unity."
+            Contribution="Jag har tagit vår spel-idé och gjort den till verklighet med hjälp av spelmotorn Unity dom kodas i C#."
           />
           <AboutCard
             Name="Sofia Lennhager"
             Role="Game Creator Artist"
             Photo={Sofia}
-            Contribution="Jag har, enligt projektets färgsättning och känsla, tagit fram det visuella i ÅterVinnaren, så som sprites och bakgrund och animationer."
+            Contribution="Jag har, enligt projektets färgsättning och känsla, tagit fram det visuella i ÅterVinnaren, så som sprites, bakgrund och animationer."
           />
           <AboutCard
             Name="Emma Ramstedt"
             Role="Webbutvecklare"
             Photo={Emma}
-            Contribution="Jag har utvärderat projektets kriterier och utvecklat en hemsida i React. Jag fokuserade på optimering av materialet, sett till att sidan följer WCAG2 samt är responsiv."
+            Contribution="Jag har utvärderat projektets kriterier och valt att utveckla denna hemsida i React. Jag har lagt fokus på optimering av material, att sidan följer WCAG2 samt att den är responsiv."
           />
         </Wrapper>
       </Background>
