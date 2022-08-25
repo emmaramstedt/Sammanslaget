@@ -31,6 +31,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: url("./assets/images/background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #7ab275;
 }
 
 .app {
@@ -52,7 +56,7 @@ h1 {
 }
 
 .atervinnaren {
-  width: 1920px;
-  height: 1080px;
+  width: 700px;
+  height: 700px;
   display: block;
 }

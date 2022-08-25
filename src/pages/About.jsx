@@ -65,25 +65,25 @@ const About = () => {
           Name="Adam Sköld"
           Role="UX Designer"
           Photo={Adam}
-          Contribution="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure placeat, itaque odio architecto error eligendi ea expedita perferendis ullam, deserunt, et reprehenderit tempore nemo aspernatur? Fugiat quidem expedita nulla et"
+          Contribution="Jag har drivit designprocessen. Jag har skissat på gränssnitt och skapat prototyper. Jag har även utfört tester och intervjuer."
         />
         <AboutCard
           Name="Furkan Cirik"
           Role="Game Creator Programmer"
           Photo={Furkan}
-          Contribution="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure placeat, itaque odio architecto error eligendi ea expedita perferendis ullam, deserunt, et reprehenderit tempore nemo aspernatur? Fugiat quidem expedita nulla et"
+          Contribution="Jag har tagit vår spel-idé och gjort det till verklighet med hjälp av spelmotorn Unity."
         />
         <AboutCard
           Name="Sofia Lennhager"
           Role="Game Creator Artist"
           Photo={Sofia}
-          Contribution="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure placeat, itaque odio architecto error eligendi ea expedita perferendis ullam, deserunt, et reprehenderit tempore nemo aspernatur? Fugiat quidem expedita nulla et"
+          Contribution="Jag har, enligt projektets färgsättning och känsla, tagit fram det visuella i ÅterVinnaren, så som sprites och bakgrund och animationer."
         />
         <AboutCard
           Name="Emma Ramstedt"
           Role="Webbutvecklare"
           Photo={Emma}
-          Contribution="Jag har utvärderat projektets kriterier och valt att programmera denna hemsida i React. Jag har fokuserat på optimering av materialet som publiceras och sett till att sidan följer WCAG2 samt är responsiv. Det var även jag som föreslog namnet ÅterVinnaren."
+          Contribution="Jag har utvärderat projektets kriterier och utvecklat en hemsida i React. Jag fokuserade på optimering av materialet, sett till att sidan följer WCAG2 samt är responsiv."
         />
       </Wrapper>
     </>

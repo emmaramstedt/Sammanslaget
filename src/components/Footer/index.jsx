@@ -6,11 +6,7 @@ const FooterWrapper = styled.div`
   display: flex;
   flex-direction: column-reverse;
   margin-top: auto;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(237, 237, 237, 0.3071603641456583) 100%
-  );
+  background: #7ab275;
   padding-top: 1em;
   font-size: 0.7em;
 

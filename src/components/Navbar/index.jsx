@@ -4,12 +4,13 @@ import atervinnarenlogo from "../../assets/logos/atervinnaren.png";
 
 const NavWrapper = styled.div`
   width: 100vw;
+  border-bottom: 1px solid #6e5eec74;
+  background-color: #ffffffda;
   nav {
     margin-bottom: 2em;
     font-size: 0.8em;
     font-weight: 800;
-    box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.1);
-    height: 54px;
+    height: 1.5em;
   }
 
   nav ul {
@@ -56,7 +57,8 @@ const Navbar = () => {
       <nav>
         <ul>
           <NavLink to="/">
-            <img src={atervinnarenlogo} alt="Återvinnaren logo" />
+            {/* <img src={atervinnarenlogo} alt="Återvinnaren logo" /> */}
+            <li>ÅterVinnaren</li>
           </NavLink>
           <NavLink to="/merinfo">
             <li>Lär dig mer</li>
