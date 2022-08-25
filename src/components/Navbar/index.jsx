@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import atervinnarenlogo from "../../assets/logos/atervinnaren.png";
 
 const NavWrapper = styled.div`
   width: 100vw;

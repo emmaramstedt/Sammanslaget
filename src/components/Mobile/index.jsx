@@ -14,7 +14,7 @@ const MobileView = styled.div`
 const Mobile = () => {
   return (
     <MobileView>
-      <img src={atervinnarenlarge} />
+      <img src={atervinnarenlarge} alt="spel-logga till ÅterVinnaren" />
       <p>Vänligen besök oss på en dator för att spela ÅterVinnaren.</p>
       <p>Mobila enheter stöds ej!</p>
     </MobileView>

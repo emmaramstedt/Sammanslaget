@@ -1,5 +1,11 @@
+import Background from "../components/Background";
+
 const NotFound = () => {
-  return <>ERROR 404 NOT FOUND</>;
+  return (
+    <>
+      <Background>ERROR 404 NOT FOUND</Background>
+    </>
+  );
 };
 
 export default NotFound;

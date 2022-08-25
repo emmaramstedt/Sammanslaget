@@ -64,7 +64,7 @@ const ProfileCardRole = styled.div`
 `;
 const ProfileCardText = styled.div`
   font-size: 0.8em;
-  height: 10em;
+  height: 5em;
 `;
 const AboutCard = (props) => {
   return (

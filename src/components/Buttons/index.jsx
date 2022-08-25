@@ -20,7 +20,7 @@ const ButtonsWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   max-width: 300px;
-  margin-top: 2em;
+  padding-top: 2em;
   .active button {
     background-color: #6f5eec !important;
     color: white !important;

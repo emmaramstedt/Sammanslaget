@@ -25,16 +25,53 @@ body {
   margin: 0;
   padding: 0;
   color: #494949;
+  background-color: #7ab275;
 }
 
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: url("./assets/images/background.png");
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  background: url("./assets/images/backgroundmobile.png") no-repeat fixed;
   background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #7ab275;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 481px) {
+  #root {
+    background: url("./assets/images/backgroundtablet.png") no-repeat fixed;
+    background-size: contain;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #root {
+    background: url("./assets/images/backgroundsmall.png") no-repeat fixed;
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #root {
+    background: url("./assets/images/backgroundmedium.png") no-repeat fixed;
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  #root {
+    background: url("./assets/images/backgrounddesktop.png") no-repeat fixed;
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 2224px) {
+  #root {
+    background-size: cover;
+  }
 }
 
 .app {
