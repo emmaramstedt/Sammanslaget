@@ -41,43 +41,7 @@ body {
   height: fit-content;
   position: absolute;
   top: 0;
-  /* background: url("./assets/images/backgroundmobile.png") no-repeat fixed;
-  background-size: contain;
-  background-color: transparent; */
 }
-/* 
-@media only screen and (min-width: 481px) {
-  #root {
-    background: url("./assets/images/backgroundtablet.png") no-repeat fixed;
-    background-size: contain;
-  }
-}
-@media only screen and (min-width: 769px) {
-  #root {
-    background: url("./assets/images/backgroundsmall.png") no-repeat fixed;
-    background-size: contain;
-  }
-}
-
-@media only screen and (min-width: 1025px) {
-  #root {
-    background: url("./assets/images/backgroundmedium.png") no-repeat fixed;
-    background-size: contain;
-  }
-}
-
-@media only screen and (min-width: 1201px) {
-  #root {
-    background: url("./assets/images/backgrounddesktop.png") no-repeat fixed;
-    background-size: contain;
-  }
-}
-
-@media only screen and (min-width: 2224px) {
-  #root {
-    background-size: cover;
-  }
-} */
 
 .app {
   margin-left: 2%;
@@ -88,10 +52,6 @@ body {
   align-content: center;
 }
 
-/* .appContainer {
-  max-width: fit-content;
-} */
-
 h1 {
   color: #56baf0;
   font-size: 1.5em;
@@ -100,7 +60,6 @@ h1 {
 .atervinnaren {
   width: 800px;
   height: 900px;
-  display: block;
 }
 
 .orange {

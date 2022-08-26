@@ -16,7 +16,8 @@ const Background = styled.div`
 
   @media only screen and (min-width: 1201px) {
     background: url(${desktop}) no-repeat;
-    background-size: auto 900px;
+    background-size: 100vw 900px;
+    background-position: center;
   }
 `;
 
