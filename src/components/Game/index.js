@@ -2,10 +2,10 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 
 const Game = () => {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "/Build/TheroyOfChangeGZipVersion2.loader.js",
-    dataUrl: "/Build/TheroyOfChangeGZipVersion2.data.unityweb",
-    frameworkUrl: "/Build/TheroyOfChangeGZipVersion2.framework.js.unityweb",
-    codeUrl: "/Build/TheroyOfChangeGZipVersion2.wasm.unityweb",
+    loaderUrl: "/Build/TheoryOfChange.loader.js",
+    dataUrl: "/Build/TheoryOfChange.data.unityweb",
+    frameworkUrl: "/Build/TheoryOfChange.framework.js.unityweb",
+    codeUrl: "/Build/TheoryOfChange.wasm.unityweb",
   });
   return <Unity className="atervinnaren" unityProvider={unityProvider} />;
 };
