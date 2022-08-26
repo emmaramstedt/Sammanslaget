@@ -1,23 +1,29 @@
 import styled from "styled-components";
 
 const FactsWrapper = styled.div`
-  max-width: 950px;
+  max-width: 500px;
   li {
-    list-style-type: numbers;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
   }
 
   ul {
     padding: 0 20px 0 20px;
   }
 `;
+const FactsContent = styled.div`
+  padding: 0 1em 0 1em;
+  display: flex;
+  flex-direction: column;
+`;
 
 const Facts = (props) => {
   return (
     <>
       <FactsWrapper className={props.Class}>
-        <h1>{props.Title}</h1>
-        {props.Content}
+        <FactsContent>
+          <h1 className={props.HeaderStyle}>{props.Title}</h1>
+          {props.Content}
+        </FactsContent>
       </FactsWrapper>
     </>
   );

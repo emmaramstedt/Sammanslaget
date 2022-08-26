@@ -60,7 +60,7 @@ const Navbar = () => {
             <li>ÅterVinnaren</li>
           </NavLink>
           <NavLink to="/merinfo">
-            <li>Lär dig mer</li>
+            <li>Vatten!?</li>
           </NavLink>
           <NavLink to="/omoss">
             <li>Om oss</li>
