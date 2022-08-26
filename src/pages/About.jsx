@@ -1,9 +1,9 @@
 import AboutCard from "../components/About";
 import styled from "styled-components";
-import Emma from "../assets/photos/emma.jpeg";
-import Adam from "../assets/photos/adam.png";
-import Furkan from "../assets/photos/furkan.png";
-import Sofia from "../assets/photos/sofia.png";
+import Emma from "../assets/photos/emma.webp";
+import Adam from "../assets/photos/adam.webp";
+import Furkan from "../assets/photos/furkan.webp";
+import Sofia from "../assets/photos/sofia.webp";
 import Background from "../components/Background";
 
 const Wrapper = styled.div`

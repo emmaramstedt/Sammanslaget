@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import atervinnarenlarge from "../../assets/logos/atervinnarenlarge.png";
+import atervinnarenlarge from "../../assets/logos/atervinnaren.webp";
 
 const MobileView = styled.div`
   border-width: 2px;
   padding: 1em;
-  /* background-image: url(${atervinnarenlarge});
-  background-size: cover; */
+  background: #ffffff;
   img {
     width: 100%;
   }

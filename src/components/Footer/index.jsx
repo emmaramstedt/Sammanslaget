@@ -6,9 +6,9 @@ const FooterWrapper = styled.div`
   display: flex;
   flex-direction: column-reverse;
   margin-top: auto;
-  background: #7ab275;
   padding-top: 1em;
   font-size: 0.7em;
+  background: #ffffff;
 
   footer {
     margin-left: 1%;
