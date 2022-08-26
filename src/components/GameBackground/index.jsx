@@ -8,6 +8,7 @@ const Background = styled.div`
   z-index: -1;
   width: 100vw;
   height: 900px;
+  opacity: 0.5;
 
   @media only screen and (min-width: 1024px) {
     background: url(${medium}) no-repeat;
