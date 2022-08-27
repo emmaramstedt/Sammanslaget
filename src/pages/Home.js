@@ -5,19 +5,19 @@ import GameBackground from "../components/GameBackground";
 import Background from "../components/Background";
 
 const Home = () => {
-  if (isBrowser) {
-    return (
-      <>
-        <GameBackground />
-        <Game />
-      </>
-    );
-  }
+  // if (isBrowser) {
+  //   return (
+  //     <>
+  //       <GameBackground />
+  //       <Game />
+  //     </>
+  //   );
+  // }
   return (
     <>
       <GameBackground />
       <Background>
-        <Mobile />
+        <Game />
       </Background>
     </>
   );
