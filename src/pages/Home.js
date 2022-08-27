@@ -16,9 +16,7 @@ const Home = () => {
   return (
     <>
       <GameBackground />
-      <Background>
-        <Game />
-      </Background>
+      <Game />
     </>
   );
 };
