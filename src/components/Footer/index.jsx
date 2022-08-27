@@ -5,7 +5,7 @@ import bflogo from "../../assets/logos/b-f.png";
 const FooterWrapper = styled.div`
   display: flex;
   flex-direction: column-reverse;
-  margin-top: auto;
+  margin-top: 2em;
   padding-top: 1em;
   font-size: 0.7em;
   background: #ffffff;
@@ -23,7 +23,7 @@ const FooterWrapper = styled.div`
     opacity: 0.4;
   }
   @media only screen and (min-width: 1200px) {
-    margin-top: 0;
+    margin-top: auto;
   }
 `;
 
