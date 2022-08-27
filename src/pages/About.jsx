@@ -78,7 +78,7 @@ const About = () => {
             Name="Furkan Cirik"
             Role="Game Creator Programmer"
             Photo={Furkan}
-            Contribution="Jag har tagit vår spel-idé och gjort den till verklighet med hjälp av spelmotorn Unity dom kodas i C#."
+            Contribution="Jag har tagit vår spel-idé och gjort den till verklighet med hjälp av spelmotorn Unity som kodas i C#."
           />
           <AboutCard
             Name="Sofia Lennhager"
