@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import infographicdesktop from "../../assets/images/infographicdesktop.svg";
-import infographicmobile from "../../assets/images/infographicmobile.svg";
+import infographicdesktop from "../../assets/images/infographicdesktop.webp";
+import infographicmobile from "../../assets/images/infographicmobile.webp";
 
 const InfographicCard = styled.div`
   width: 100%;
